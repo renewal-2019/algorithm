@@ -19,7 +19,7 @@ public class Test2 {
     }
 
     //TODO 动态规划 f(n) = f(n-1) + f(n-2)
-    public int climbStairs(int n) {
+    public int climbStairs(int n) {                                                                                                         
         if (n == 1) {
             return 1;
         }
