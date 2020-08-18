@@ -24,7 +24,6 @@ public class A11 {
         }
 
     }
-
 }
 
 class TreeNode {
