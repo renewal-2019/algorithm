@@ -19,6 +19,7 @@ public class 括号匹配 {
             result.add(strKS);
             return;
         }
+        // 左括号是无条件插入的，右括号是有条件插入的
         // 递归开始时必须先添加左括号
         if (left > 0) { // 只要左括号还有剩余，则可以添加左括号
             dfs(strKS + "(", left - 1, right, result);
