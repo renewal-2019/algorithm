@@ -23,7 +23,7 @@ public class MaoPaoSort {
     }
 
     public static void main(String[] args) {
-        int[] array = {1,3,8,4,1,9,3,6};
+        int[] array = {1,3,8,4,1,9,3, 6};
         sortArray(array);
     }
 

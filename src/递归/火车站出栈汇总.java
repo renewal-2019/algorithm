@@ -28,6 +28,7 @@ public class 火车站出栈汇总 {
 
     private static void dfs(Stack<Integer> out, LinkedList<Integer> origin, StringBuilder sb, List<StringBuilder> outList) {
         if (out.empty() && origin.isEmpty()) {
+            // 只有深克隆结果，才能将结果存储起来
             outList.add(new StringBuilder(sb));
             return;
         }
