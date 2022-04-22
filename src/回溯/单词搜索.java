@@ -2,6 +2,8 @@ package 回溯;
 
 /**
  * 给定一个 m x n 二维字符网格 board 和一个字符串单词 word 。如果 word 存在于网格中，返回 true ；否则，返回 false 。
+ * 对递归方法外层的遍历是枚举各种情况
+ * 递归方法内层的遍历时针对特定情况的深度搜索
  */
 public class 单词搜索 {
     public static void main(String[] args) {
