@@ -2,6 +2,11 @@ package 回溯;
 
 import java.util.*;
 
+/**
+ * 回溯方法是void还是boolean的判断标准
+ * 如果是否符合条件可以用一个数据结构（比如这题的栈是否为空）来存储，那么就是void
+ * 如果是否符合条件只能在回溯的过程中进行判断（比如单词搜索中的当前位置的字母与传入的字母是否相等），那么就是Boolean
+ */
 public class 有效的括号组合 {
     public static void main(String[] args) {
         List<String> strings = generateParenthesis(3);
