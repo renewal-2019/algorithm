@@ -16,7 +16,7 @@ public class 最大岛屿周长 {
         for (int r = 0; r < grid.length; r++) {
             for (int c = 0; c < grid[0].length; c++) {
                 if (grid[r][c] == 1) {
-                    // 题目限制只有一个岛屿，计算一个即可
+                    // 计算每个岛屿周长，取最大
                     int dfs = dfs(grid, r, c);
                     res = Math.max(dfs, res);
                 }
